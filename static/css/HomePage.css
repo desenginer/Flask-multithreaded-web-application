@@ -1,0 +1,98 @@
+.block {
+    width: 447px; /* ширина */
+    height: 150px; /* высота */
+    border: 5px solid orange; /* толщина и цвет сплошной рамки */
+    background-color: #009966;
+    /* margin: 15px left; /* отступ сверху и горизонтальное выравнивание по центру */
+}
+.left-block{
+    float: left;
+}
+
+.disp{
+    font-family: "Impact";
+    text-align: center;
+    vertical-align: middle;
+    font-size: xx-large;
+}
+
+.right-block{
+    float: left;
+}
+.book{
+    width: 630px;
+    height: 700px;
+    background-color: #F2EECB;
+    border: 5px solid gray;
+    border-radius: 10px 20px;
+    margin-left: 5px;
+}
+
+.spr{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.spr3{
+    font-family: "Times New Roman";
+    text-align: center;
+    margin-top: 1px;
+    font-weight: normal;
+}
+
+.btn {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0 25px;
+	margin: 10px 15px 15px 2px;
+	outline: none;
+	border: 1px solid gray;
+	border-radius: 50px;
+	height: 46px;
+	line-height: 46px;
+	font-size: 14px;
+	font-weight: 600;
+	text-decoration: none;
+	color: #444;
+	background-color: #fff;
+	box-shadow: 0 4px 6px rgb(65 132 144 / 10%), 0 1px 3px rgb(0 0 0 / 8%);
+	cursor: pointer;
+	user-select: none;
+	appearance: none;
+	touch-action: manipulation;
+	vertical-align: top;
+	transition: box-shadow 0.2s;
+}
+.btn:focus-visible {
+	border: 1px solid #4c51f9;
+	outline: none;
+}
+.btn:hover {
+	transition: all 0.2s;
+	box-shadow: 0 7px 14px rgb(65 132 144 / 10%), 0 3px 6px rgb(0 0 0 / 8%);
+}
+.btn:active {
+	background-color: #808080;
+}
+.btn:disabled {
+	background-color: #eee;
+	border-color: #eee;
+	color: #444;
+	cursor: not-allowed;
+}
+.scrmenu{
+    width: 450px; /* ширина */
+    height: 450px; /* высота */
+    margin-top: 22px;
+    background-color: black;
+    border: 2px solid gray;
+    border-radius: 20px 20px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.txt{
+    font-family: "Lucida Console";
+    color: white;
+    margin-left: 3px;
+}

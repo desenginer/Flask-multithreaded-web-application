@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang=ru>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="{{ url_for('static', filename='mex.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/HomePage.css') }}">
+    <title>Хлебопечь</title>
+</head>
+<body>
+        <div class = "left-block">
+            <div class="block">
+                <strong class="disp" id="display"></strong>
+            </div>
+            <section>
+                <button class="btn" id="MODE" onclick="clickMODE()">MODE</button>
+                <button class="btn" id="SIZE" onclick="clickSIZE()">SIZE</button>
+                <button class="btn" id="OK" onclick="clickOK()">OK</button>
+                <button class="btn" id="START" onclick="clickSTART()">START/STOP</button>
+            </section>
+            <div class="scrmenu"> <!--<p>консоль</p>-->
+                <p class="txt" id="panel">> Панель состояния хлебопечи<br></p>
+            </div>
+        </div>
+        <div class = "right-block">
+            <div class = "book">
+                <h2 class = "spr" >Справочник</h2>
+                <h3 class = "spr3" id ="spr33">Необходимые ингредиенты для выбранного режима<br><br></h3>
+            </div>
+        </div>
+</body>
+</html>
